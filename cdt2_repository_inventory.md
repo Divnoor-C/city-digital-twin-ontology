@@ -21,6 +21,22 @@ This inventory is intended to record:
 
 ---
 
+
+## Current supervisor instructions
+
+Based on the latest email thread, the immediate priority is no longer the missing `cdt:Amenity` class issue. That issue has been set aside because the old dashboard appears to have used an older amenity mapping approach where amenities were modeled as superclasses of services, while the newer approach was not implemented.
+
+Current priorities:
+
+1. Initialize the complete census data in the new `cdt2` repository.
+2. Investigate the existing limited census excerpt currently loaded as `http://example.com/CensusSampleLimited.ttl`.
+3. Investigate older neighbourhoods and associated census tracts stored in `http://example.com/Toronto.ttl`.
+4. Identify and replace use of the old location namespace:
+   `http://ontology.eil.utoronto.ca/5087/1/SpatialLoc/hasLocation`
+   with the correct ISO namespace.
+5. Investigate why water ward data appears in the default graph in the old CDT repository and correct this in `cdt2`.
+6. Keep an inventory of current graphs, added data, source data, scripts/resources, named graphs, and notes.
+
 ## Existing named graphs
 
 | Named graph | Approx. triples | Main contents | Notes |
