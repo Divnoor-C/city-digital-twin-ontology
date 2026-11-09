@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# IDE metadata
+.idea/
+
+# OS metadata
+desktop.ini
+.DS_Store
