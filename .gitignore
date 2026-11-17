@@ -8,3 +8,7 @@ __pycache__/
 # OS metadata
 desktop.ini
 .DS_Store
+
+# Large Overture production artifacts
+toronto_buildings_full.geojsonseq
+toronto_overture_buildings_full.ttl
